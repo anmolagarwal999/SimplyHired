@@ -1,0 +1,33 @@
+{
+  "name": "learning_mern",
+  "version": "1.0.0",
+  "description": "Anmol's description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "stop_listen": "kill -9 $(lsof -t -i:5000)"
+  },
+  "author": "Anmol Agarwal",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "form-data": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
